@@ -15,5 +15,16 @@ int main()
     \是转义字符，n指newline
     */
     cout << "Hello World! \n";
+    cout << "I Love C++\n so much!";
+    /*
+    常见的换行符号
+    \n 换到下一行
+    \t 制表符 Tab键
+    \b 退格键（平时用的删除）
+    \a 一种警告声 A sound of alert
+    \\ 反斜杠 \
+    \' 单引号 '
+    \" 双引号 "
+    */
     return 0;
 }
