@@ -11,7 +11,7 @@ int main()
     /*
     cout是console output的意思，属于c++的预定义函数
     insertion operation << 可以看作为信息流，想把 “你好世界”给流到cout里去
-    字符串，不用多说了qwq，不过c其实没有实际意义上的字符串，\n为换行符（废话
+    字符串，不用多说了qwq，不过c本身其实没有实际意义上的字符串（c++应该是有的），\n为换行符（废话
     \是转义字符，n指newline
     */
     cout << "Hello World! \n";
@@ -26,5 +26,11 @@ int main()
     \' 单引号 '
     \" 双引号 "
     */
+
+    // insertion operation也可以做链式嵌套，像这样
+    cout << "我是第一行\n" << "我是第二行\n第三！";
+    // 但是注意cout必须放到左边，下面这种写法编译器是不承认的哦
+    // "我是第一行\n" << "我是第二行\n第三！" >> cout;
+
     return 0;
 }
