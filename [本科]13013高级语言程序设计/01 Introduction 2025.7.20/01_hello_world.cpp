@@ -15,7 +15,7 @@ int main()
     \是转义字符，n指newline
     */
     cout << "Hello World! \n";
-    cout << "I Love C++\n so much!";
+    cout << "I Love C++\n so much!\n";
     /*
     常见的换行符号
     \n 换到下一行
@@ -26,6 +26,9 @@ int main()
     \' 单引号 '
     \" 双引号 "
     */
+    
+    // 如果中文显示会乱码，先运行一次这个
+    system("chcp 65001");
 
     // insertion operation也可以做链式嵌套，像这样
     cout << "我是第一行\n" << "我是第二行\n第三！";
