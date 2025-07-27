@@ -3,6 +3,7 @@
 c语言中你不能使用iostream，也自然无法使用cin和cout这样的对象
 */
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -13,6 +14,8 @@ int main()
     scanf("%d%d",&n1,&n2);
     result=n1*n2;
     printf("the result is : %d \n",result);
-    // 自然，system函数也调用不了哩
+    
+    // 在c中使用system函数，你需要#include <stdlib.h>
+    system("pause");
     return 0;
 }
