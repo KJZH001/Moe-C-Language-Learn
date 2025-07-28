@@ -27,4 +27,7 @@ int main()
     {
         cout << "here!\n";
     }
+
+    system("pause");
+    return 0;
 }
