@@ -4,10 +4,11 @@ using namespace std;
 // 这个项目中，我们将会测试If的三种特殊情况
 int main()
 {
+    system("chcp 65001");
     // 情况1，没有返回
     cout << "情况1：\n";
     int a=0;
-    if(a==1)
+    if(a==1) // 很明显，a不等于1嘛
     {
         cout << "here!\n";
     }
