@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // 这里我们来看一个if和else的例子
     int income=0,tax=0;
     cout << "please enter your income :";
     cin >> income;
