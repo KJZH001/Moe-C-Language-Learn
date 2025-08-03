@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    cout << "please type thress num:";
     int a=0,b=0,c=0;
     cin >> a >> b >> c;
     if(a <= b)
@@ -28,4 +29,6 @@ int main()
             cout << c << " is the smallest\n";
         }
     }
+
+    system("pause");
 }
