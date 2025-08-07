@@ -70,4 +70,8 @@ cpp的运算符号优先级
 实在不行你多打两个括号又有什么关系呢？
 
 除非，你是为了考试XD
+
+refer:
+https://learn.microsoft.com/zh-cn/cpp/cpp/cpp-built-in-operators-precedence-and-associativity?view=msvc-170
+https://www.runoob.com/cplusplus/cpp-operators.html
 */
