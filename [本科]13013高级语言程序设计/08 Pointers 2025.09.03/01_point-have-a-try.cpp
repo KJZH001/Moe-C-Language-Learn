@@ -4,8 +4,11 @@ using namespace std;
 
 int main()
 {
+    system("chcp 65001");
+
     /*
     指针指向的都是内存开头的位置
+    指针的大小取决于电脑的系统
     对于32位电脑，那么是4个字节（4byte * 8bit = 32bit）
     对于64位电脑，那么是8个字节（8byte * 8bit = 64bit）
 
@@ -27,10 +30,17 @@ int main()
     // 栈堆是从高向低处分配
     // &的意思是，取出这个变量本身的地址
 
+    cout << "===这里显示的是每个变量本身的指针地址===\n";
     cout << &a << "\n";
     cout << &b << "\n";
     cout << &aPtr << "\n";
     cout << &bPtr << "\n";
+
+    // 不同的电脑可能不同，但不同的类型的指针在同一台pc上得到的结果一定是一样的
+    // 取决于电脑的操作系统的位数（见开头）
+    cout << "===查看指针的大小===\n";
+    cout << sizeof(&aPtr) << "\n";
+    cout << sizeof(&bPtr) << "\n";
 
     system("pause");
     return 0;
