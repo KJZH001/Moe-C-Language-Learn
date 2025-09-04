@@ -54,6 +54,12 @@ int main()
     double *bPtr=&a; // error!
     */
 
+    /*
+    我们有两种指针操作符
+    & address-of operator 意味着返回这个变量本身的地址
+    * derenfence operator 意味着返回被指针指向的东西的内容（也就是说，它会是个什么东西，但总之不是一个地址了）
+    */
+
     system("pause");
     return 0;
 }
