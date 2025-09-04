@@ -1,4 +1,3 @@
-// 来尝试我们的第一个指针项目
 #include <iostream>
 using namespace std;
 
